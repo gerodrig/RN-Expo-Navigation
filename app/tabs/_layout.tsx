@@ -4,7 +4,8 @@ import { Ionicons } from '@expo/vector-icons';
 
 const TabsLayout = () => {
   return (
-    <Tabs screenOptions={{ tabBarActiveTintColor: 'purple',
+    <Tabs screenOptions={{ tabBarActiveTintColor: 'indigo',
+      headerShown: false,
       // tabBarShowLabel: false,
      }}>
       <Tabs.Screen
@@ -22,6 +23,15 @@ const TabsLayout = () => {
           title: 'Favorites Screen',
           tabBarIcon: ({ color }) => (
             <Ionicons size={28} name="star-outline" color={color} />
+          ),
+        }}
+      />
+      <Tabs.Screen
+        name="(stack)"
+        options={{
+          title: 'Stack',
+          tabBarIcon: ({ color }) => (
+            <Ionicons size={28} name="person-add-outline" color={color} />
           ),
         }}
       />
