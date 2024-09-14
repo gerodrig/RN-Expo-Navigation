@@ -1,10 +1,10 @@
-import { View, Text } from 'react-native';
+// import { View, Text } from 'react-native';
 import React from 'react';
-import { SafeAreaView } from 'react-native-safe-area-context';
+// import { SafeAreaView } from 'react-native-safe-area-context';
 import { Link, Redirect } from 'expo-router';
 
 const App = () => {
-    return <Redirect href='/drawer' />
+    return <Redirect href="/home" />
 //   return (
 //     <SafeAreaView>
 //       <View className="mt-6 mx-2.5">

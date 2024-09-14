@@ -3,7 +3,7 @@ import { Slot, SplashScreen } from 'expo-router';
 import { useFonts } from 'expo-font';
 
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
-import { Drawer } from 'expo-router/drawer';
+// import { Drawer } from 'expo-router/drawer';
 
 import './global.css';
 
